@@ -1,0 +1,24 @@
+{
+  "name": "gist-fontsize",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "change gist page font size",
+  "icons": {
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content-script.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "embeded-script.js"
+  ],
+  "permissions": [
+    "<all_urls>"
+  ]
+}
